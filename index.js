@@ -1,2 +1,4 @@
 document.getElementsByTagName('meta').namedItem ('mini').setAttribute ('content','https://melnikandres.github.io/pages-test/circulo.jpg')
-document.head.appendChild(document.createElement('meta')).setAttribute('property','og:description').setAttribute('content','Success')
+const element = document.head.appendChild(document.createElement('meta'))
+element.setAttribute('property','og:description')
+element.setAttribute('content','Success')
