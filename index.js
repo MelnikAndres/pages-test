@@ -1,1 +1,2 @@
 document.getElementsByTagName('meta').namedItem ('mini').setAttribute ('content','https://melnikandres.github.io/pages-test/circulo.jpg')
+document.head.appendChild(document.createElement('meta')).setAttribute('property','og:description').setAttribute('content','Success')
